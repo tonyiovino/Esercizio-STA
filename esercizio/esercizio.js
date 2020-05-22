@@ -1,7 +1,7 @@
 var modal = document.getElementById("login");
 
-window.onclick = function(event) {
-  if (event.target == modal) {
+window.onclick = function(event){
+  if (event.target == modal){
     modal.style.display = "none";
   }
 }
@@ -9,15 +9,14 @@ window.onclick = function(event) {
 function validate(){
   var username = getElementById("username");
   var password = getElementById("password");
-
+  
   if(username.value == null){
-    alert("Username non inserito!")
+    alert("Username non inserito!");
     return false;
   }
-
-  if(password.value == null || password.value > 6){
-
-  }
   
-  return true;
+  if(password.value == null){
+    alert("Password non inserita!");
+    return false;
+  }
 }
