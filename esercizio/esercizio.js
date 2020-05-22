@@ -5,3 +5,19 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
+
+function validate(){
+  var username = getElementById("username");
+  var password = getElementById("password");
+
+  if(username.value == null){
+    alert("Username non inserito!")
+    return false;
+  }
+
+  if(password.value == null || password.value > 6){
+
+  }
+  
+  return true;
+}

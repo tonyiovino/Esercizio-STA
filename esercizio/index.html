@@ -23,16 +23,16 @@
             <span onclick="document.getElementById('login').style.display='none'"></span>
 
             <form class="modal-content animate" action="signin.html">
-                <div>
+                <div on>
                     <label for="username"><b>Username</b></label>
                     <div class="paddingInput">
-                        <input type="text" placeholder="Enter Username" name="username" required>
+                        <input type="text" id="username" placeholder="Inserisci Username" name="username">
                     </div>
                 </div>
                 <div>
                     <label for="password"><b>Password</b></label>
                     <div class="paddingInput">
-                        <input type="password" placeholder="Enter Password" name="password" required>
+                        <input id="password" type="password" placeholder="Inserisci Password" name="password">
                     </div>
                 </div>
                 <div>
@@ -40,7 +40,7 @@
                 </div>
 
                 <div class="divCancelButton">
-                        <button type="button" onclick="document.getElementById('login').style.display='none'" class="cancelButton">Cancel</button>
+                        <button class="cancelButton" type="button" onclick="document.getElementById('login').style.display='none'">Cancel</button>
                 </div>
             </form>
         </div> 
