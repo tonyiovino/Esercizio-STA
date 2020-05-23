@@ -2,23 +2,20 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <link rel="stylesheet" type="text/css" href="esercizio.css">
-        <script src="esercizio.js"></script>
+        <link rel="stylesheet" type="text/css" href="index.css">
+        <script type="text/javascript" src="index.js"></script>
         <title>HitLocker's Exercise</title>
     </head>
 
     <body>
         <h1>HitLocker's Page</h1>
         <div>
-            <form>
-                <button class="buttonAccess" onclick="document.getElementById('login').style.display='block';return false;">Accedi</button>
-                <button class="buttonSubscrive" onclick="document.getElementById('register').style.display='block';return false;">Iscriviti</button>
-            </form>
-
+            <button class="buttonAccess" onclick="document.getElementById('login').style.display='block';return false;">Accedi</button>
+            <button class="buttonSubscrive" onclick="document.getElementById('register').style.display='block';return false;">Iscriviti</button>
         </div>
 
         <div id="login" class="modal">
-            <form class="modal-content animate" action="signin.html">
+            <form id="link" class="modal-content animate" action="esercizio.html">
                 <div>
                     <label for="username"><b>Username</b></label>
                     <div class="paddingInput">
