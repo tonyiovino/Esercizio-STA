@@ -2,8 +2,8 @@
 
 * # Index
     * index.html (index.css)
-        * login.html [home](home.html)
-        * join.html [home](home.html)
+        * login.html [home.html]
+        * join.html [home.html]
 
 * # Home
     * home.html
