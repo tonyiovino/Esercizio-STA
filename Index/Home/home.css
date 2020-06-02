@@ -40,40 +40,6 @@ div{
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
-/*Start Navigation Bar*/
-
-.backButton{
-    background-color: rgba(226, 49, 49, 0.5);
-    padding: 9px 14px;
-    font-size: 15px;
-    border-color: transparent;
-    border-radius: 100px;
-    color: rgba(255, 255, 255, 0.7);
-    align-content: center;
-    margin-top: 350px;
-    margin-left: -1200px;
-}
-
-.backButton:hover{
-    background-color: rgb(255, 0, 0);
-    color: rgba(255, 255, 255, 0.7);
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-}
-
-.forthButton{
-    background-color: rgba(49, 226, 49, 0.5);
-    padding: 9px 14px;
-    font-size: 15px;
-    border-color: transparent;
-    border-radius: 100px;
-    color: rgba(255, 255, 255, 0.7);
-    align-content: center;
-    margin-right: -1200px;
-    bottom: 100px;
-}
-
-/*End Navigation Bar*/
-
 div.left{
     text-align: start;
     background-color: rgb(255, 255, 255);
