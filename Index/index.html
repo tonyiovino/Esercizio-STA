@@ -11,9 +11,31 @@
         <h1>HitLocker's Page</h1>
 
         <div>
-            <button class="buttonIndex" onclick="location.href='elements/login.html'" type="button">Accedi</button>
-            <button class="buttonIndex" onclick="location.href='elements/join.html'" type="button">Iscriviti</buttton>
+            <button class="buttonIndex" onclick="document.getElementById('login').style.display='block';return false;" type="button">Accedi</button>
         </div>
 
+        <div id="login" class="modal">
+            <form class="modal-content animate" action="Home/home.html">
+                <div>
+                    <label for="username"><b>Username</b></label>
+                    <div class="paddingInput">
+                        <input type="text" id="username" placeholder="Inserisci Username" name="username">
+                    </div>
+                </div>
+                <div>
+                    <label for="password"><b>Password</b></label>
+                    <div class="paddingInput">
+                        <input id="password" type="password" placeholder="Inserisci Password" name="password">
+                    </div>
+                </div>
+                <div>
+                    <button class="buttonLogin" type="submit">Login</button>
+                </div>
+
+                <div class="divCancelButton">
+                    <button class="cancelButton" type="button" onclick="document.getElementById('login').style.display='none'">Cancel</button>
+                </div>
+            </form>
+        </div>
     </body>
 </html>
