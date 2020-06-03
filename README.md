@@ -1,11 +1,21 @@
 # Esercizio-STA
 
 * # Index
-    * index.html (index.css)
-        * login.html [home.html]
-        * join.html [home.html]
+    * login.css
+    * login.html [home.html]
 
-* # Home
-    * home.html
-        * (tutto)
-
+    * # Home
+        * home.css
+        * home.html [elements/(esercizio).html]
+        * # elements
+            * aldolescenza.html
+            * aldolescenza2.html
+            * barratitolo.html
+            * racconto.html
+            * racconto2.html
+                * # racconto2
+                    * woutstyle.html
+                    * # With Style
+                        * wstyle.css
+                        * wstyle.html
+            * libri.html
