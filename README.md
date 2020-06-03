@@ -15,7 +15,7 @@
             * racconto2.html
                 * # racconto2
                     * woutstyle.html
-                    * # With Style
+                    * # wstyle
                         * wstyle.css
                         * wstyle.html
             * libri.html
