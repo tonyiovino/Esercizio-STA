@@ -169,14 +169,13 @@ div.right6{
     background-color: rgba(0, 0, 0, 0.3);
     text-align: initial;
     position: absolute;
-    padding-top: 25px;
+    padding-top: 5px;
+    padding-left: 20px;
     left: 200px;
-    width: 500px;
-    height: 275px;
+    width: 480px;
+    height: 295px;
     border: 3px solid rgb(59, 214, 39);
-}
-
-ol.right6{
     color: rgba(255, 255, 255, 0.7);
-    font-size: 30px;
+    font-size: 26px;
+    text-transform: capitalize;
 }
