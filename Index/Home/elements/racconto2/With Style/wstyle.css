@@ -1,0 +1,55 @@
+html{
+    height: 100%;
+    background: radial-gradient(circle, rgb(243, 116, 255) 0%, rgb(120, 181, 255) 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-transform: capitalize;
+    padding-top: 57px;
+    padding-bottom: 40px;
+}
+
+h2{
+    font-size: 28px;
+    text-align: start;
+    text-transform: capitalize;
+    color: rgb(255, 255, 255);
+    margin-left: 60px;
+}
+
+div{
+    text-align: center;
+    margin-right: 100px;
+    margin-left: 100px;
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.8);
+    border: 5px dotted rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+}
+
+.backButton{
+    background-color: rgba(226, 49, 49, 0.5);
+    padding: 9px 14px;
+    font-size: 15px;
+    border-color: transparent;
+    border-radius: 100px;
+    color: rgba(255, 255, 255, 0.7);
+    align-content: center;
+    margin-top: 55px;
+    margin-left: 20px;
+    transition-duration: 0.4s;
+}
+
+.backButton:hover{
+    background-color: rgb(255, 0, 0);
+    color: rgba(255, 255, 255, 0.7);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
